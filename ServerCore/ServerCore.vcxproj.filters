@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{c0baabd5-9c93-48c8-8231-2f7b54aae544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network">
+      <UniqueIdentifier>{1a5189d1-2265-42a2-b923-131bb69e58f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Utils">
+      <UniqueIdentifier>{d8114201-8566-4b31-98c8-401bab52db3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Thread">
+      <UniqueIdentifier>{75ce84f6-f4d9-44ad-a058-bef1ca128176}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreGlobal.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreMacro.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CorePch.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreTLS.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>소스 파일\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketUtils.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreGlobal.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreMacro.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CorePch.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreTLS.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>소스 파일\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketUtils.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
